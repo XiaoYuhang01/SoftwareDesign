@@ -1,0 +1,11 @@
+D:\homework\Softwaredesign\AutoFareSystem1\bin\Debug\AutoFareSystem1.exe.config
+D:\homework\Softwaredesign\AutoFareSystem1\bin\Debug\AutoFareSystem1.exe
+D:\homework\Softwaredesign\AutoFareSystem1\bin\Debug\AutoFareSystem1.pdb
+D:\homework\Softwaredesign\AutoFareSystem1\obj\Debug\AutoFareSystem1.Properties.Resources.resources
+D:\homework\Softwaredesign\AutoFareSystem1\obj\Debug\AutoFareSystem1.csproj.GenerateResource.cache
+D:\homework\Softwaredesign\AutoFareSystem1\obj\Debug\AutoFareSystem1.csproj.CoreCompileInputs.cache
+D:\homework\Softwaredesign\AutoFareSystem1\obj\Debug\AutoFareSystem1.exe
+D:\homework\Softwaredesign\AutoFareSystem1\obj\Debug\AutoFareSystem1.pdb
+D:\homework\Softwaredesign\AutoFareSystem1\obj\Debug\AutoFareSystem1.Form1.resources
+D:\homework\Softwaredesign\AutoFareSystem1\obj\Debug\AutoFareSystem1.Form2.resources
+D:\homework\Softwaredesign\AutoFareSystem1\obj\Debug\AutoFareSystem1.csproj.AssemblyReference.cache
