@@ -30,7 +30,7 @@ namespace AutoFareSystem1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            foreach(Student student in Controller.controller.Students)
+            foreach(Student student in Controller.GetController().Students)
             {
                 if(textBox1.Text == null)
                 {
@@ -40,7 +40,11 @@ namespace AutoFareSystem1
                 {
                     if (textBox2.Text == student.Password)
                     {
-                        label4.Text = student.Name + ", 欢迎您"; return;
+                        //label4.Text = student.Name + ", 欢迎您"; return;
+                        Form3 user = new Form3();
+                        Form3.currentStudentId = textBox1.Text;
+                        user.Show();
+                        this.Hide();
                     }
                     else
                     {
@@ -53,7 +57,7 @@ namespace AutoFareSystem1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            foreach (Administrator administrator in Controller.controller.Administrators)
+            foreach (Administrator administrator in Controller.GetController().Administrators)
             {
                 if (textBox1.Text == administrator.Id)
                 {
@@ -72,6 +76,11 @@ namespace AutoFareSystem1
                 }
             }
             label4.Text = "此管理员账号不存在";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,0 +1,10 @@
+D:\homework\Softwaredesign\WebClinet\obj\Debug\WebClinet.Properties.Resources.resources
+D:\homework\Softwaredesign\WebClinet\obj\Debug\WebClinet.csproj.GenerateResource.cache
+D:\homework\Softwaredesign\WebClinet\obj\Debug\WebClinet.csproj.CoreCompileInputs.cache
+D:\homework\Softwaredesign\WebClinet\bin\Debug\WebClinet.exe.config
+D:\homework\Softwaredesign\WebClinet\bin\Debug\WebClinet.exe
+D:\homework\Softwaredesign\WebClinet\bin\Debug\WebClinet.pdb
+D:\homework\Softwaredesign\WebClinet\obj\Debug\WebClinet.FormClient.resources
+D:\homework\Softwaredesign\WebClinet\obj\Debug\WebClinet.exe
+D:\homework\Softwaredesign\WebClinet\obj\Debug\WebClinet.pdb
+D:\homework\Softwaredesign\WebClinet\obj\Debug\WebClinet.csproj.AssemblyReference.cache

@@ -25,5 +25,10 @@ namespace AutoFareSystem1
             if (obj.GetType() != this.GetType()) { return false; }
             else { return this.Id + this.Name == obj.ToString(); }
         }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
     }
 }

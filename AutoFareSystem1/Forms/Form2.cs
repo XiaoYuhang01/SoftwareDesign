@@ -31,6 +31,7 @@ namespace AutoFareSystem1
             if(currentStudent.EFareAmount + currentStudent.WFareAmount == 0 && !currentStudent.IfUseOk)
             {
                 currentStudent.IfUseOk = true;
+                bindingSource1.ResetBindings(true);
                 label2.Text = "服务已恢复";
                 return;
             }
@@ -41,9 +42,14 @@ namespace AutoFareSystem1
             }
             if(currentStudent.EFareAmount +currentStudent.WFareAmount > 0)
             {
-                label2.Text = "该学生尚未缴费，无法恢复";
+                label2.Text = currentStudent.Name + "尚未缴费，无法恢复";
                 return;
             }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
